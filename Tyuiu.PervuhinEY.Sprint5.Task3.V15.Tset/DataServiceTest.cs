@@ -8,7 +8,7 @@ namespace Tyuiu.PervuhinEY.Sprint5.Task3.V15.Tset
         [TestMethod]
         public void CeckSaveToFileTextData()
         {
-            int x = 3;
+            int x = 5;
             DataService ds = new DataService();
             string path = ds.SaveToFileTextData(x);
             FileInfo fileInfo = new FileInfo(path);
