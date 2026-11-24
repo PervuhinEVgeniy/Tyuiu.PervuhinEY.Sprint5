@@ -27,7 +27,7 @@ class Program
         Console.WriteLine("********************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                 *");
         Console.WriteLine("********************************************************************");
-        int x = 3;
+        int x = 5;
         string res = ds.SaveToFileTextData(x);
         Console.WriteLine("*                                                                  *");
         Console.WriteLine("********************************************************************");
