@@ -16,8 +16,12 @@ namespace Tyuiu.PervuhinEY.Sprint5.Task7.V1.Lib
                 }
             }
 
+            string result = newText.ToString().Trim();
+            result = result.TrimEnd('.', ' ');
+
             string outputPath = Path.Combine(Path.GetTempPath(), "OutPutDataFileTask7V1.txt");
-            File.WriteAllText(outputPath, newText.ToString());
+            File.WriteAllText(outputPath, result);
+
             return outputPath;
         }
     }
